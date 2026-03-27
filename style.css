@@ -1,0 +1,78 @@
+/* Opmaak algemeen gehele pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & footer */
+header {
+    background-color:#333;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+
+footer {
+    background-color:#333;
+    padding: 15px;
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+}
+
+/* Opmaak tabel */
+table {
+    width: 60%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 25%;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #000;
+}
+
+/* Achtergrondkleuren per cel */
+#cel1 {background-color: #ffdddd;}
+#cel2 {background-color: #ddffdd;}
+#cel3 {background-color: #ddddff;}
+#cel4 {background-color: #fff0b3;}
+#cel5 {background-color: #ffcccb;}
+#cel6 {background-color: #c1f0c1;}
+#cel7 {background-color: #c1c1f0;}
+#cel8 {background-color: #ffe699;}
+#cel9 {background-color: #ffb3b3;}
+#cel10 {background-color: #b3ffcc;}
+#cel11 {background-color: #b3b3ff;}
+#cel12 {background-color: #ffd480;}
+#cel13 {background-color: #ff9999;}
+#cel14 {background-color: #99ffcc;}
+#cel15 {background-color: #9999ff;}
+#cel16 {background-color: #ffbf80;}
+
+/* Woorden met aparte achtergrondkleur */
+.woord {
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Individuele woordkleuren */
+.woord1 {background-color:#ff6f61; color:white;}
+.woord2 {background-color:#6fa8dc; color:white;}
+.woord3 {background-color:#93c47d; color:white;}
+.woord4 {background-color:#8e7cc3; color:white;}
+.woord5 {background-color:#f6b26b; color:white;}
+.woord6 {background-color:#45818e; color:white;}
+.woord7 {background-color:#b4a7d6; color:black;}
+.woord8 {background-color:#76a5af; color:white;}
+
+/* Afbeeldingen */
+img {
+    max-width: 80px;
+    height: auto;
+}
